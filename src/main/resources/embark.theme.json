@@ -1,0 +1,163 @@
+{
+  "name": "Embark",
+  "dark": true,
+  "author": "John Ezekiel",
+  "editorScheme": "/embark.theme.xml",
+  "colors": {
+    "bg0": "#100E23",
+    "bg0_hh": "#100E23",
+    "bg0_h": "#100E23",
+    "bg0_s": "#100E23",
+    "bg1": "#1E1C31",
+    "bg2": "#2D2B40",
+    "bg3": "#3E3859",
+    "bg4": "#585273",
+    "bg": "#100E23",
+
+    "fg0": "#CBE3E7",
+    "fg1": "#CBE3E7",
+    "fg2": "#CBE3E7",
+    "fg3": "#CBE3E7",
+    "fg4": "#CBE3E7",
+    "fg": "#CBE3E7",
+
+    "red0": "#F48FB1",
+    "red1": "#F02E6E",
+    "green0": "#A1EFD3",
+    "green1": "#62D196",
+    "yellow0": "#FFE6B3",
+    "yellow1": "#FFE6B3",
+    "blue0": "#91DDFF",
+    "blue1": "#65B2FF",
+    "purple0": "#D4BFFF",
+    "purple1": "#A37ACC",
+    "aqua0": "#87DFEB",
+    "aqua1": "#63F2F1",
+    "gray0": "#8A889D",
+    "gray1": "#8A889D",
+    "orange0": "#F2B482",
+    "orange1": "#F2B482"
+  },
+  "ui": {
+    "*": {
+      "background": "bg",
+      "foreground": "fg",
+
+      "infoForeground": "fg",
+
+      "lightSelectionBackground": "bg1",
+      "selectionBackground": "fg0",
+      "selectionForeground": "bg0",
+
+      "selectionBackgroundInactive": "bg0",
+      "selectionInactiveBackground": "fg0",
+
+      "selectedBackground": "fg0",
+      "selectedForeground": "bg0",
+      "selectedInactiveBackground": "bg2",
+      "selectedBackgroundInactive": "bg2",
+
+      "hoverBackground": "#28282866",
+
+      "borderColor": "bg2",
+      "disabledBorderColor": "bg0_hh",
+
+      "separatorColor": "bg2"
+    },
+    "ActionButton": {
+      "hoverBackground": "bg2"
+    },
+    "Button": {
+      "startBackground": "bg",
+      "endBackground": "bg",
+      "startBorderColor": "bg2",
+      "endBorderColor": "bg2",
+
+      "default": {
+        "foreground": "fg0",
+        "startBackground": "bg0",
+        "endBackground": "bg0",
+        "startBorderColor": "bg2",
+        "endBorderColor": "bg2",
+        "focusedBorderColor": "bg"
+      }
+    },
+    "ComboBox": {
+      "nonEditableBackground": "bg",
+      "ArrowButton": {
+        "iconColor": "fg0",
+        "disabledIconColor": "fg0",
+        "nonEditableBackground": "bg"
+      }
+    },
+    "EditorTabs": {
+      "underlinedTabForeground": "bg0",
+      "underlinedTabBackground": "fg0",
+      "underlineColor": "blue0"
+    },
+    "ToolWindow": {
+      "Header": {
+        "background": "bg0_s",
+        "inactiveBackground": "bg"
+      },
+
+      "HeaderTab": {
+        "selectedInactiveBackground": "bg0",
+        "hoverInactiveBackground": "bg0"
+      }
+    },
+    "Table": {
+      "stripeColor": "bg0_s",
+      "lightSelectionForeground": "fg0",
+      "lightSelectionInactiveForeground":"fg4",
+      "lightSelectionBackground": "bg2",
+      "lightSelectionInactiveBackground":"bg"
+    },
+    "FileColor": {
+      "Yellow": "yellow1",
+      "Green": "green1",
+      "Blue": "blue0",
+      "Violet": "purple0",
+      "Orange": "orange0",
+      "Rose": "red1"
+    },
+    "Link": {
+      "activeForeground": "blue1",
+      "hoverForeground": "blue1",
+      "pressedForeground": "blue1",
+      "visitedForeground": "blue1"
+    }
+  },
+  "icons": {
+    "ColorPalette": {
+      "Actions.Grey": "gray0",
+      "Actions.Red": "red0",
+      "Actions.Yellow": "yellow0",
+      "Actions.Green": "green0",
+      "Actions.Blue": "blue0",
+      "Actions.GreyInline.Dark": "bg2",
+
+      "Objects.Grey": "gray0",
+      "Objects.RedStatus": "red0",
+      "Objects.Red": "red1",
+      "Objects.Pink": "red0",
+      "Objects.Yellow": "yellow0",
+      "Objects.Green": "green0",
+      "Objects.Blue": "blue0",
+      "Objects.Purple": "purple0",
+      "Objects.BlackText": "#000000FF",
+      "Objects.YellowDark": "yellow1",
+      "Objects.GreenAndroid": "green0",
+
+      "Checkbox.Background.Default.Dark": "bg1",
+      "Checkbox.Border.Default.Dark": "red1",
+      "Checkbox.Foreground.Selected.Dark": "red1",
+      "Checkbox.Focus.Wide.Dark": "blue0",
+      "Checkbox.Focus.Thin.Default.Dark": "blue1",
+      "Checkbox.Focus.Thin.Selected.Dark": "blue1",
+      "Checkbox.Background.Disabled.Dark": "bg1",
+      "Checkbox.Border.Disabled.Dark": "bg2",
+      "Checkbox.Foreground.Disabled.Dark": "bg3"
+    }
+  }
+}

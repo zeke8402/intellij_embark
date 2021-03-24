@@ -1,6 +1,6 @@
 <idea-plugin>
-    <id>com.github.zeke8402.intellijserenade</id>
-    <name>Serenade Theme</name>
+    <id>com.github.zeke8402.intellijembark</id>
+    <name>Embark Theme</name>
     <vendor>zeke8402</vendor>
 
     <!-- Product and plugin compatibility requirements -->
@@ -9,13 +9,13 @@
     <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <applicationService serviceImplementation="com.github.zeke8402.intellijserenade.services.MyApplicationService"/>
-        <projectService serviceImplementation="com.github.zeke8402.intellijserenade.services.MyProjectService"/>
-        <themeProvider id="1e4fd0c8-b6f2-4385-a490-22b571335fae" path="/serenade.theme.json"/>
+        <applicationService serviceImplementation="com.github.zeke8402.intellijembark.services.MyApplicationService"/>
+        <projectService serviceImplementation="com.github.zeke8402.intellijembark.services.MyProjectService"/>
+        <themeProvider id="1e4fd0c8-b6f2-4385-a490-22b571335fae" path="/embark.theme.json"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.zeke8402.intellijserenade.listeners.MyProjectManagerListener"
+        <listener class="com.github.zeke8402.intellijembark.listeners.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>

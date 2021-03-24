@@ -1,6 +1,6 @@
-package com.github.zeke8402.intellijserenade.listeners
+package com.github.zeke8402.intellijembark.listeners
 
-import com.github.zeke8402.intellijserenade.services.MyProjectService
+import com.github.zeke8402.intellijembark.services.MyProjectService
 import com.intellij.openapi.components.service
 import com.intellij.openapi.project.Project
 import com.intellij.openapi.project.ProjectManagerListener

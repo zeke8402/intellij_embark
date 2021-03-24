@@ -1,4 +1,4 @@
-package com.github.zeke8402.intellijserenade
+package com.github.zeke8402.intellijembark
 
 import com.intellij.AbstractBundle
 import org.jetbrains.annotations.NonNls

@@ -1,1 +1,1 @@
-rootProject.name = "Serenade Theme"
+rootProject.name = "Embark Theme"
