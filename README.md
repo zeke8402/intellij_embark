@@ -1,5 +1,6 @@
 # Embark Jetbrains Theme
 
+![Build](https://github.com/zeke8402/intellij_embark/workflows/Build/badge.svg)
 [![Version](https://img.shields.io/jetbrains/plugin/v/16401.svg)](https://plugins.jetbrains.com/plugin/16401)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/16401.svg)](https://plugins.jetbrains.com/plugin/16401)
 
